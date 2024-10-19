@@ -1,0 +1,40 @@
+<div class="container mt-5">
+    <div class="card mx-auto" style="width: 22rem;">
+      <div class="card-body">
+        <h5 class="card-title text-center">Admin Login</h5>
+  
+        <form (ngSubmit)="onLogin()">
+          <div class="mb-3">
+            <label for="adminId" class="form-label">Admin ID</label>
+            <input
+              type="text"
+              [(ngModel)]="adminId"
+              name="adminId"
+              class="form-control"
+              id="adminId"
+              placeholder="Enter your Admin ID"
+              required
+            />
+          </div>
+  
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input
+              type="password"
+              [(ngModel)]="password"
+              name="password"
+              class="form-control"
+              id="password"
+              placeholder="Enter your password"
+              required
+            />
+          </div>
+  
+          <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary" >Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  

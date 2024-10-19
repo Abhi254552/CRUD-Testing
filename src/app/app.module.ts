@@ -9,6 +9,8 @@ import { DoctorLoginComponent } from './doctor-login/doctor-login.component';
 import { FormsModule } from '@angular/forms';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { DoctorRegistrationComponent } from './doctor-registration/doctor-registration.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +20,8 @@ import { DoctorRegistrationComponent } from './doctor-registration/doctor-regist
     DoctorLoginComponent,
     AboutUsComponent,
     DoctorRegistrationComponent,
+    AdminLoginComponent,
+    AdminDashboardComponent,
   
   ],
   imports: [

@@ -6,6 +6,8 @@ import { HomeComponent } from './home/home.component';
 import { DoctorLoginComponent } from './doctor-login/doctor-login.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { DoctorRegistrationComponent } from './doctor-registration/doctor-registration.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { AdminDashboardComponent } from './admin-dashboard/admin-dashboard.component';
 
 
 const routes: Routes = [
@@ -15,6 +17,8 @@ const routes: Routes = [
   { path: 'doctor-login', component: DoctorLoginComponent },
   { path: 'about-us', component: AboutUsComponent },
   {path:'doctor-signup',component :DoctorRegistrationComponent},
+  {path:'admim-login',component :AdminLoginComponent},
+  {path:'admin-dashboard',component :AdminDashboardComponent},
 
 ];
 
